@@ -4,49 +4,108 @@ AI Powered Banking Intelligence Platform
 
 ## Features
 
-- JWT Authentication
-- Dashboard Analytics
-- Add Transaction
-- Edit Transaction
-- Delete Transaction
-- Search Transactions
-- CSV Upload
-- CSV Export
-- Insights
-- Pie Charts
-- Monthly Analysis
+* JWT Authentication
+* Dashboard Analytics
+* Add Transaction
+* Edit Transaction
+* Delete Transaction
+* Search Transactions
+* CSV Upload
+* CSV Export
+* Insights
+* Pie Charts
+* Monthly Analysis
 
-## Tech Stack
+---
 
-Frontend
+# Screenshots
 
-- React
-- Axios
-- Recharts
+## Dashboard
 
-Backend
+![Dashboard](screenshots/Dashborad.png)
 
-- FastAPI
-- SQLAlchemy
-- JWT
+## Transactions
 
-Database
+![Transactions](screenshots/transaction.png)
 
-- PostgreSQL
+## Add Transaction
 
-Libraries
+![Add Transaction](screenshots/Add%20transation.png)
 
-- Pandas
-- Recharts
+## AI Insights
 
-## Backend
+![AI Insights](screenshots/AI_insights.png)
+
+## Expense Analysis
+
+![Charts](screenshots/Charts.png)
+
+## Monthly Analysis
+
+![Monthly Analysis](screenshots/Monthly_analysisis.png)
+
+## CSV Upload
+
+![CSV Upload](screenshots/csvUPLoa.png)
+
+## JWT Token Example
+
+![JWT](screenshots/Token_generated_example.png)
+
+---
+
+# Tech Stack
+
+### Frontend
+
+* React
+* Axios
+* Recharts
+
+### Backend
+
+* FastAPI
+* SQLAlchemy
+* JWT Authentication
+
+### Database
+
+* PostgreSQL
+
+### Libraries
+
+* Pandas
+* Recharts
+
+---
+
+# Backend
 
 ```bash
 uvicorn app.main:app --reload
 ```
 
-## Frontend
+# Frontend
 
 ```bash
+npm install
 npm run dev
 ```
+
+---
+
+# API Documentation
+
+Swagger UI
+
+http://127.0.0.1:8000/docs
+
+ReDoc
+
+http://127.0.0.1:8000/redoc
+
+---
+
+# Author
+
+Rahul Mane
